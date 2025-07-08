@@ -94,6 +94,7 @@ namespace EComApi.Controllers
             _context.SaveChanges();
 
             return Ok($"Product with ID {id} deleted successfully.");
+            // changed for azure
         }
     }
 }
